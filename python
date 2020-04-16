@@ -1,0 +1,7 @@
+import math
+n = int(input("Insira o número :"))
+if n >= 0:
+    print(math.sqrt(n))
+else:
+    print(math.pow(n,2))  
+    
